@@ -48,13 +48,22 @@
 
 # 7
 
-a = [10,20,30,20,10,50,60,40,80,50,40]
+# a = [10,20,30,20,10,50,60,40,80,50,40]
 
-dup_items = set()
-uniq_items = []
-for x in a:
-    if x not in dup_items:
-        uniq_items.append(x)
-        dup_items.add(x)
+# dup_items = set()
+# uniq_items = []
+# for x in a:
+#     if x not in dup_items:
+#         uniq_items.append(x)
+#         dup_items.add(x)
 
-print(dup_items)
+# print(dup_items)
+
+# 8
+# import operator
+# d = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+# print('Original dictionary : ',d)
+# sorted_d = sorted(d.items(), key=operator.itemgetter(0))
+# print('Dictionary in ascending order by value : ',sorted_d)
+# sorted_d = sorted(d.items(), key=operator.itemgetter(0),reverse=True)
+# print('Dictionary in descending order by value : ',sorted_d)
