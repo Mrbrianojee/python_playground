@@ -1,16 +1,17 @@
+# 2
 # print('Hello World')
 # print('Welcome To Python')
 
 
-# name  = raw_input("What is your name?")
+name  = raw_input("What is your name?")
 
-# print("Hello {0}").format(name)
+print("Hello {0}").format(name)
 
-# print(name.lower())
+print(name.lower())
 
-# print(name[0].upper() + name[1: len(name)].lower() )
+print(name[0].upper() + name[1: len(name)].lower() )
 
-#print(name[1:4])
+print(name[1:4])
 
 # my_list = [1,2,3,4,5,6]
 # print(sum(my_list))
@@ -72,13 +73,15 @@
 # my_students.append(student3)
 # my_students.append(student4)
 
-# print(my_students)
+# # print(my_students)
 
 # my_student_dict = {}
 # for student in my_students:
 #   my_student_dict[student['name']] = student 
 
-# print(my_student_dict["Tony"])
+# # print(my_student_dict["Tony"])
+
+# print(my_student_dict)
 
 
 
@@ -88,38 +91,44 @@ musician1_instrument1 = {'lute': 22}
 musician1_instrument2 = {'flute': 87}
 musician1_instrument3 = {'boot': 99}
 
-
 musician1_instruments = []
 
 musician1_instruments.append(musician1_instrument1)
 musician1_instruments.append(musician1_instrument2)
 musician1_instruments.append(musician1_instrument3)
 
-# print(musician1_instruments)
-
+musician1_bands =[]
+musician1_bands.append("Radiohead")
+musician1_bands.append("Wyvern Lyngo")
+musician1_bands.append("First Aid Kit")
 
 musician1['instruments'] = musician1_instruments
+musician1['bands'] =  musician1_bands
 
 musician_list =[]
 
 musician_list.append(musician1)
 
 
-# print(musician1)
-
-
 my_muso_dict = {}
 for muso in musician_list:
     my_muso_dict[muso['name']] = muso
-    
-print(my_muso_dict)
- 
 
 
+print(my_muso_dict['Tom']['instruments'][0]['lute'])
         
 
 
 
+
+
+
+
+# s = "Hello"
+# str = ""
+# for i in s:
+#     str = i + str
+# print(str)
 
 
 
